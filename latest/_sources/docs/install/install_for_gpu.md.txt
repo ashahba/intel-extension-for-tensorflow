@@ -66,10 +66,10 @@ Need to install components of Intel® oneAPI Base Toolkit:
 
 
 ```bash
-$ wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/7deeaac4-f605-4bcf-a81b-ea7531577c61/l_BaseKit_p_2023.1.0.46401_offline.sh
+$ wget wget https://registrationcenter-download.intel.com/akdlm/IRC_NAS/20f4e6a1-6b0b-4752-b8c1-e5eacba10e01/l_BaseKit_p_2024.0.0.49564_offline.sh
 # 3 components are necessary: DPC++/C++ Compiler, DPC++ Libiary and oneMKL
 # if you want to run distributed training with Intel® Optimization for Horovod*, oneCCL is needed too(Intel® oneAPI MPI Library will be installed automatically as its dependency)
-$ sudo sh ./l_BaseKit_p_2023.1.0.46401_offline.sh
+$ sudo sh ./l_BaseKit_p_2024.0.0.49564_offline.sh
 ```
 
 For any more details, follow the procedure in https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit.html.
